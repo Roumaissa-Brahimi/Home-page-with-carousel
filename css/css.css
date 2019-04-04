@@ -1,0 +1,129 @@
+
+body{
+	height:auto;
+}
+/*start nav_bar*/
+.bg-dark {
+	padding: 10px;
+    background-color: #152837 !important;
+}
+.navbar-brand{
+	font-size: 25px;
+	font-weight: bold;
+}.nav-span{
+	font-size: 30px;
+	font-weight: bolder;
+	color: yellow;
+}
+
+ .navbar-dark .navbar-nav .show > .nav-link,
+  .navbar-dark .navbar-nav .active > .nav-link,
+   .navbar-dark .navbar-nav .nav-link .show {
+    color: yellow;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(254, 254, 254, 0.98);
+}
+.navbar-dark .navbar-nav .nav-link:hover,
+ .navbar-dark .navbar-nav .nav-link:focus,
+ .navbar-dark .navbar-nav .nav-link:active{
+    color:yellow;
+}
+/*end nav_bar*/
+/*start carousel*/
+.slide{
+	margin-top: 0;
+}
+.carousel-inner img{
+	max-height: 600px;
+}
+.slide .carousel-inner h2,
+.slide .carousel-inner p{
+	font-family: serif;
+	text-transform: uppercase;
+}
+.slide .carousel-inner p{
+font-size: 30px;
+}
+.slide .carousel-inner span{
+	font-family:serif;
+	text-transform: uppercase;
+	font-weight: 900;
+	color: yellow;
+}
+.overly{
+	background-color:rgba(0, 0, 0, 0.6);
+	position: absolute;
+	z-index:1;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+}
+.slide .carousel-indicators{
+	bottom: 60px;
+}
+.slide .carousel-control-prev,
+.slide .carousel-control-next,
+  .slide .carousel-indicators li{
+	opacity: 1;
+}
+.slide .carousel-indicators li{
+	height: 12px;
+	width: 12px;
+	border-radius: 100%;
+	background-color: #fff0;
+	border: 2px solid white;
+}
+.carousel-caption{
+	bottom: 200px;
+}
+.slide .carousel-indicators >.active{
+	background-color: yellow;
+	border: 2px solid  yellow;
+}
+/*end carousel*/
+/*start services*/
+.services{
+	padding: 30px 0;
+}
+.service-span{
+	font-family: serif;
+	font-size: 30px;
+	text-transform: uppercase;
+	margin-bottom: 25px;
+	color: black;
+}
+.services h2{
+	color:#cbcb27;
+}
+.services p{
+	line-height: 1.5;
+	font-size: 20px;
+	width: 80%;
+	margin: 0 auto 20px;
+	color: #989898;
+}
+/*end services*/
+/*start features*/
+.features{
+	padding: 50px 0;
+	background-color: #ffffff;
+}
+.features i{
+	background-color: #f5e90f;;
+	color:black;
+	padding: 20px;
+}
+.features h3{
+	margin: 20px auto;
+	color:#1b3e44;
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: bolder; 
+}
+.features p{
+	color:#989898;
+	margin-bottom: 40px; 
+}
+/*end features*/
